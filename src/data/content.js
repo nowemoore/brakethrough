@@ -17,7 +17,7 @@ export const home = {
     { highlight: "exceptional system thinkers" },
     " to answer ",
     { link: "open questions", href: "https://pacing.tech/appendices/" },
-    " around pacing and turn it into a realistic option that the world leaders can no longer put off.",
+    " around pacing and turn it into a realistic option that world leaders can no longer put off.",
   ],
   // Full-width picture between the buttons and "Supported by". It stays fixed while the page
   // scrolls over it. Put the file in public/ and set e.g. image: "/stripe.jpg".
@@ -116,7 +116,7 @@ export const programme = {
     heading: "Topics",
     // Photo by Unsplash (photo-1602876153306-9a59170d9d8d), converted to black and white
     stripeAfter: { image: "/programme/stripe-bulbs.jpg", alt: "A row of glowing Edison light bulbs hanging from an industrial pipe" },
-    lead: "We are exciting about a wide range of work on the open questions that stand between pacing as an idea and pacing as policy, including:",
+    lead: "We are excited about a wide range of work on the open questions that stand between pacing as an idea and pacing as policy, including:",
     items: [
       {
         heading: "Grounds for Pacing",
@@ -167,11 +167,15 @@ export const programme = {
       },
       {
         q: "Is the fellowship full-time only?",
-        a: "We are be flexible with exceptional candidates.",
+        a: "We are flexible with exceptional candidates.",
       },
       {
         q: "Do I need to be in London or San Francisco to take part?",
         a: "No. You can work from anywhere in the world.",
+      },
+      {
+        q: "Do you sponsor visa?",
+        a: "No. This fellowship is fully remote.",
       },
       {
         q: "Do I need a project idea before I apply?",
@@ -221,7 +225,7 @@ export const team = {
   // Shown below the team
   outro: [
     [
-      "Working on pacing or pacing-relevant topic full-time and would like to help? Reach us at ",
+      "Working on pacing or a pacing-relevant topic full-time and would like to help? Reach us at ",
       { link: "hello@pacing.tech", href: "mailto:hello@pacing.tech" },
       ".",
     ],
