@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700&family=Lora:ital,wght@1,600..700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="/logo.png" />
+    <link rel="preload" as="image" href="/stripe.jpg" />
+    <title>Brakethrough Fellowship</title>
+    <style>
+      /* Page background shows immediately; content fades in once images and fonts are ready (src/main.jsx) */
+      body { background: #f5f1f0; margin: 0; }
+      #root { opacity: 0; transition: opacity 0.35s ease; animation: reveal 0s 4s forwards; }
+      #root.ready { opacity: 1; }
+      /* Safety net: show the page after 4s even if the script never signals ready (e.g. it crashed) */
+      @keyframes reveal { to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { #root { transition: none; } }
+    </style>
+    <noscript><style>#root { opacity: 1; }</style></noscript>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
