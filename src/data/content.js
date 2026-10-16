@@ -1,6 +1,6 @@
 // All site copy lives here — edit this file to change the text.
 
-export const APPLY_URL = "#apply";
+export const APPLY_URL = "https://airtable.com/apptTLpW6JE5VRyBD/pagAucUnPG3YdAsPX/form";
 
 export const home = {
   // Each line is a list of pieces: plain text, { highlight } for bold teal italic,
@@ -103,11 +103,10 @@ export const programme = {
     // `icon` is a Phosphor icon name (phosphoricons.com); add new ones to the icon list in Programme.jsx
     points: [
       { icon: "CalendarBlank", text: [{ bold: "12 weeks" }, " to work full-time on a project you design."] },
-      { icon: "ChatsCircle", text: ["A ", { bold: "dedicated mentor" }, " with weekly one-on-one sessions."] },
+      { icon: "ChatsCircle", text: ["Support from a ", { bold: "dedicated mentor" }, " with weekly one-on-one sessions."] },
       { icon: "Coins", text: ["A", { bold: " weekly stipend of $1,200" }, " so you can focus on your research."] },
       { icon: "GlobeHemisphereWest", text: ["Flexibility to ", { bold: "work from anywhere" }, " in the world."] },
       { icon: "UsersThree", text: ["A ", { bold: "small cohort" }, " of fellows to think, test ideas and write with."] },
-      { icon: "ChalkboardTeacher", text: [{ bold: "Workshops and talks" }, " from experts in AI policy, governance and technical safety."] },
       { icon: "AirplaneTilt", text: [{ bold: "Travel support" }, " to present your work at a conference, if your paper is accepted."] },
     ],
   },
@@ -194,17 +193,17 @@ export const programme = {
       {
         when: "Step 1",
         heading: "Open Application",
-        body: "Provide open-format evidence that you’d thrive here, answer a few short-form questions, and show us how you’d scope a project.",
+        body: "Basic info, open-format evidence, a few short-form questions, and an optional exercise.",
       },
       {
         when: "Step 2",
         heading: "Lock-In Application",
-        body: "Complete a short exercise to show us how you think about pacing and navigate existing literature (not necessarily on pacing).",
+        body: "We may ask promising candidates to elaborate on their thoughts or complete a short exercise.",
       },
       {
         when: "Step 3",
         heading: "Interview",
-        body: "Have a conversation with the team about your motivation, collaboratively stress-test your ideas, and explore your fit with your chosen research area.",
+        body: "Say hi to the team and tell us what you'd be most excited to work on with us.",
       },
       {
         when: "Step 4",

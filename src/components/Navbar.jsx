@@ -22,7 +22,7 @@ export default function Navbar() {
             </NavLink>
           ))}
         </div>
-        <a className="apply" href={APPLY_URL}>
+        <a className="apply" href={APPLY_URL} target="_blank" rel="noopener noreferrer">
           Apply
         </a>
       </div>

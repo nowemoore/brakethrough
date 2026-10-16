@@ -19,7 +19,7 @@ export default function Home() {
         <RichText parts={home.title} />
       </h2>
       <div className="hero-actions">
-        <a className="apply" href={APPLY_URL}>
+        <a className="apply" href={APPLY_URL} target="_blank" rel="noopener noreferrer">
           Apply now
         </a>
         <Link className="secondary" to="/programme">
