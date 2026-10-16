@@ -103,7 +103,7 @@ export const programme = {
     // `icon` is a Phosphor icon name (phosphoricons.com); add new ones to the icon list in Programme.jsx
     points: [
       { icon: "CalendarBlank", text: [{ bold: "12 weeks" }, " to work full-time on a project you design."] },
-      { icon: "ChatsCircle", text: ["Support from a ", { bold: "dedicated mentor" }, " with weekly one-on-one sessions."] },
+      { icon: "ChatsCircle", text: ["Support from a ", { bold: "expert advisers" }, " and weekly one-on-ones with our research support team."] },
       { icon: "Coins", text: ["A", { bold: " weekly stipend of $1,200" }, " so you can focus on your research."] },
       { icon: "GlobeHemisphereWest", text: ["Flexibility to ", { bold: "work from anywhere" }, " in the world."] },
       { icon: "UsersThree", text: ["A ", { bold: "small cohort" }, " of fellows to think, test ideas and write with."] },
