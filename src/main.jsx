@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
-import { about, home, programme } from "./data/content.js";
+import { about, home, programme, team } from "./data/content.js";
 import "./styles.css";
 import { asset } from "./lib/asset.js";
 
@@ -29,6 +29,7 @@ const images = [
   programme.about.stripeAfter?.image,
   programme.topics.stripeAfter?.image,
   programme.fit.stripeAfter?.image,
+  ...team.people.map((p) => p.photo),
 ].filter(Boolean).map(asset);
 
 // Every font face the site uses. Requesting them explicitly matters: document.fonts.ready

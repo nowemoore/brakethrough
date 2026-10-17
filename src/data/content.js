@@ -230,8 +230,20 @@ export const team = {
     ],
   ],
   people: [
-    { name: "Team Member", bio: "Brief bio placeholder.", photo: null },
-    { name: "Team Member", bio: "Brief bio placeholder.", photo: null },
-    { name: "Team Member", bio: "Brief bio placeholder.", photo: null },
+    {
+      name: "Charles Dillon",
+      bio: "Charles is a partner at Arb Research, a research consultancy focused on AI safety and governance. He previously worked as a portfolio manager in quantitative finance and as CTO of a startup.",
+      photo: "/team/charles-dillon.jpg",
+    },
+    {
+      name: "Nikola Moore",
+      bio: "Nikola works as a researcher by day and as a field-builder by night. She has a background in language, cognition, and computer science, and helps early- and mid-career professionals apply their skills to making AI go well at BlueDot.",
+      photo: "/team/nikola-moore.jpg",
+    },
+    {
+      name: "Gavin Leech",
+      bio: "Gavin runs Arb and is a fellow at Cosmos and Foresight. He recently wrote a book on AI with Dwarkesh Patel, has a PhD in AI from the University of Bristol, and reviewed ~1200 books on Goodreads.",
+      photo: "/team/gavin-leech.jpg",
+    },
   ],
 };
