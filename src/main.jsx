@@ -10,7 +10,8 @@ const root = document.getElementById("root");
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    {/* No trailing slash, so /fellowship matches as well as /fellowship/ */}
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
       <App />
     </BrowserRouter>
   </StrictMode>
